@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /opt/tornado/
+
+if [ -n "$1" ]; then
+    python3 /opt/tornado/main.py "$1"
+else
+    python3 /opt/tornado/main.py
+fi

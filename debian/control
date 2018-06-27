@@ -1,0 +1,13 @@
+Source: tornado
+Section: utils
+Priority: optional
+Maintainer: Joumaico Maulas <joumaico@yahoo.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 12)
+Homepage: https://github.com/joumaico/tornado
+
+Package: tornado
+Architecture: amd64
+Depends: ${misc:Depends}, lm-sensors
+Description: ThinkPad Fan Control
+ Tornado is a utility software to manage the fan speed on ThinkPad laptops.
